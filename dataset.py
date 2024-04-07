@@ -32,7 +32,7 @@ def generate_samples(operation, n1, n2, separator, n_samples):
             pcts = [10, 20, 30, 40, 50, 60, 70, 80, 90, 25, 75]
             pct = np.random.choice(pcts)
 
-            lower = 10 ** (n1 - 1)
+            lower = 10 ** (n1 - 1) #sdfgsdfgsd
             upper = 10 ** n1
 
             if (pct % 10) == 0:
